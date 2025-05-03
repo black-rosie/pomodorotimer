@@ -1,5 +1,5 @@
 // Global variables
-let timeLeft = 25 * 60; // seconds
+let timeLeft = 120 * 60; // seconds
 let timerInterval;
 let currentInterval = 'pomodoro';
 let backgroundColor = '#F1F1EF'; // Default background color
