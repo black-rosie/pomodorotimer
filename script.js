@@ -1,5 +1,5 @@
 // Global variables
-let timeLeft = 120 * 60; // seconds
+let timeLeft = 90 * 60; // seconds
 let timerInterval;
 let currentInterval = 'pomodoro';
 let backgroundColor = '#F1F1EF'; // Default background color
@@ -22,7 +22,7 @@ const saveBtn = document.getElementById('save-btn');
 // Event listeners for interval buttons
 pomodoroIntervalBtn.addEventListener('click', () => {
   currentInterval = 'pomodoro';
-  timeLeft = 120 * 60;
+  timeLeft = 90 * 60;
   updateTimeLeftTextContent();
 });
 
